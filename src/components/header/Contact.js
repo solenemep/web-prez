@@ -29,7 +29,7 @@ const Contact = () => {
           );
         })}
         <li>
-          <a className="button" href="" target="_blank">
+          <a className="button" href="src/images/SP.jpeg" target="_blank">
             Download PDF
           </a>
         </li>
