@@ -186,7 +186,7 @@ ul {
 
 #contact ul {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: start;
 }
 
@@ -302,7 +302,13 @@ h4 {
   margin: 0px var(--spacing-tags) 0px 0px;
 }
 
-p {
+main ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main p {
   text-align: justify;
 }
 
@@ -312,12 +318,13 @@ b {
 }
 
 .card {
+  width: 108%;
   box-sizing: border-box;
   margin-bottom: var(--spacing-small);
-  padding: var(--spacing-small);
   display: grid;
   grid-template-columns: 1fr 3fr;
   transition: transform 0.3s;
+  padding: var(--spacing-small) 4% var(--spacing-small) 4%;
 }
 
 @media (max-width: 768px) {
