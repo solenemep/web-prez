@@ -36,13 +36,13 @@
 }
 
 .light {
-  --background-color: rgb(253, 241, 226);
-  --card-hover-color: rgba(253, 241, 226, 0.3);
-  --radient-color: rgba(230, 191, 15, 0.3);
-  --text-color: rgb(100, 100, 100);
-  --unlight-color: rgb(0, 0, 0);
-  --tag-bg-color: rgba(253, 40, 40, 0.1);
-  --tag-color: rgb(253, 40, 40);
+  --background-color: rgb(2, 15, 14);
+  --card-hover-color: rgba(2, 15, 14, 0.3);
+  --radient-color: rgba(135, 243, 227, 0.3);
+  --text-color: rgb(226, 252, 248);
+  --unlight-color: rgb(149, 15, 91);
+  --tag-bg-color: rgba(235, 116, 61, 0.1);
+  --tag-color: rgb(235, 116, 61);
 
   --circle-translate: translate(2.5px, -50%);
 }
@@ -144,6 +144,26 @@ footer {
   footer {
     padding: var(--spacing-medium) var(--spacing-large) var(--spacing-large)
       var(--spacing-large);
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: var(--spacing-medium);
+  }
+
+  main {
+    padding: 0px var(--spacing-medium);
+  }
+
+  footer {
+    padding: var(--spacing-small) var(--spacing-medium) var(--spacing-medium)
+      var(--spacing-medium);
+  }
+
+  .button {
+    display: none;
+    position: relative;
   }
 }
 

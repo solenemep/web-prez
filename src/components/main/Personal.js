@@ -10,7 +10,7 @@ const Personal = ({ activeSection }) => {
       title: "Atomic Decentralized Features",
       establishment: { name: "", url: "" },
       details: [
-        "Decentralized features that that can function independently but also contribute to a larger whole. Implemented in Solidity and well tested.",
+        "Decentralized features that can function independently but also contribute to a larger whole. Implemented in Solidity and well tested.",
       ],
       skills: ["Solidity", "Hardhat", "Foundry", "JavaScript"],
       image: (

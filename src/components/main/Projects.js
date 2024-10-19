@@ -10,7 +10,7 @@ const Projects = ({ activeSection }) => {
       title: "Kinesis Bridge",
       establishment: { name: "Kadena", url: "https://www.kadena.io/" },
       details: [
-        "The Kadena bridge, powered by the Hyperlane permissionless protocol, enables seamless and secure asset transfers between the Kadena blockchain and other blockchains. This project offered a valuable opportunity to quickly learn and apply the Pact programming language. By focusing on cross-chain communication, it deepened the understanding of smart contract design and interoperability.",
+        "The Kadena bridge, powered by the Hyperlane permissionless protocol, enables seamless and secure asset transfers between the Kadena blockchain and other blockchains. This project offered an opportunity to quickly learn and apply the Pact programming language. By focusing on cross-chain communication, it deepened the understanding of smart contract design and interoperability.",
       ],
       skills: [
         "Solitidy",
@@ -59,9 +59,9 @@ const Projects = ({ activeSection }) => {
         url: "https://dolletwallet.com/",
       },
       details: [
-        "Implementation of rentable strategies by integrating external protocols, enhancing users' ability to maximize their asset utilization. This involved developing smart contracts in Solidity that allowed seamless interaction with various DeFi protocols, enabling users to lend, borrow, and earn yields on their assets.",
+        "Implementation of rentable strategies by integrating external protocols, improving users' ability to maximize their asset utilization. This involved developing smart contracts in Solidity that allowed interaction with various DeFi protocols, enabling users to lend, borrow, and earn yields on their assets.",
       ],
-      skills: ["Solitidy", "TypeScript", "Foundry", "Oracle", "DEFI"],
+      skills: ["Solitidy", "TypeScript", "Foundry", "Oracle", "DeFi"],
       image: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94 20" fill="none">
           <path
@@ -331,7 +331,7 @@ const Projects = ({ activeSection }) => {
       details: [
         "The orderbook-based perpetual trading DEX represents a significant advancement in the DeFi space, combining the advantages of traditional trading mechanisms with the benefits of decentralization. By utilizing a red-black tree for efficient order management, it enhances trade execution speed and accuracy. This innovative approach creates a new trading ecosystem, setting a new standard for decentralized applications in finance.",
       ],
-      skills: ["Solitidy", "Foundry", "Oracle", "RedBlack Tree", "DEFI"],
+      skills: ["Solitidy", "Foundry", "Oracle", "RedBlack Tree", "DeFi"],
       image: <svg height="0px"></svg>,
       links: [
         {
@@ -349,9 +349,9 @@ const Projects = ({ activeSection }) => {
         url: "https://dein.fi/",
       },
       details: [
-        "The DEIN project, a rebranding of Bridge Mutual, is a decentralized marketplace focused on risk management, predictions, and insurance. It allows users to participate in a community-driven approach to insurance, enabling them to assess risks, set premiums, and manage claims transparently through smart contracts.",
+        "The DEIN project, a rebranding of Bridge Mutual, is a decentralized app focused on risk management, predictions, and insurance. It allows users to participate in a community-driven approach to insurance, enabling them to assess risks, set premiums, and manage claims transparently through smart contracts.",
       ],
-      skills: ["Solitidy", "Hardhat", "Foundry", "DEFI"],
+      skills: ["Solitidy", "Hardhat", "Foundry", "DeFi"],
       image: (
         <svg
           class="about-svg"
