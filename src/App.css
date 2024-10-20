@@ -18,8 +18,8 @@
   --spacing-tags: 5px;
 
   --size-big: 42px;
-  --size-medium: 12px;
-  --size-small: 10px;
+  --size-medium: 14px;
+  --size-small: 12px;
   --app-size: 16px;
 }
 
@@ -29,20 +29,20 @@
   --radient-color: rgba(37, 96, 222, 0.3);
   --text-color: rgb(148 163 184);
   --unlight-color: rgb(255, 255, 255);
-  --tag-bg-color: rgba(38, 255, 194, 0.1);
-  --tag-color: rgb(38, 255, 194);
+  --tag-bg-color: rgba(38, 255, 157, 0.1);
+  --tag-color: rgb(38, 255, 157);
 
   --circle-translate: translate(27.5px, -50%);
 }
 
 .light {
-  --background-color: rgb(2, 15, 14);
-  --card-hover-color: rgba(2, 15, 14, 0.3);
-  --radient-color: rgba(135, 243, 227, 0.3);
-  --text-color: rgb(226, 252, 248);
-  --unlight-color: rgb(149, 15, 91);
-  --tag-bg-color: rgba(235, 116, 61, 0.1);
-  --tag-color: rgb(235, 116, 61);
+  --background-color: rgb(255, 248, 242);
+  --card-hover-color: rgba(255, 248, 242, 0.3);
+  --radient-color: rgba(255, 179, 179, 0.3);
+  --text-color: rgb(115, 115, 115);
+  --unlight-color: rgb(0, 0, 0);
+  --tag-bg-color: rgba(255, 42, 127, 0.1);
+  --tag-color: rgb(255, 42, 127);
 
   --circle-translate: translate(2.5px, -50%);
 }
@@ -123,7 +123,7 @@ header {
 }
 
 main {
-  padding: var(--spacing-large) var(--spacing-large) 0px 0px;
+  padding: var(--spacing-small) var(--spacing-large) 0px 0px;
 }
 
 footer {
@@ -218,6 +218,14 @@ ul {
   display: flex;
   align-items: center;
   color: var(--unlight-color);
+  justify-content: end;
+}
+
+@media (max-width: 1024px) {
+  #darkmode {
+    display: none;
+    position: relative;
+  }
 }
 
 .switch {

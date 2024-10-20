@@ -14,7 +14,7 @@ const Experience = ({ activeSection }) => {
         "Code Optimization: Improve contract performance to lower gas fees and enhance transaction efficiency.",
         "Testing and Auditing: Conducte thorough testing and auditing to identify and fix vulnerabilities.",
         "Collaborative Development: Collaborate with UI/UX designers and back-end to integrate smart contracts into dApps.",
-        "Documentation and Support: Develope comprehensive documentation to aid maintenance and knowledge transfer.",
+        "Documentation and Support: Develop comprehensive documentation to aid maintenance and knowledge transfer.",
       ],
       skills: [
         "Solidity",

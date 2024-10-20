@@ -6,7 +6,7 @@ import Intro from "./components/header/Intro";
 import Navbar from "./components/header/Navbar";
 import Contact from "./components/header/Contact";
 
-// import DarkMode from "./components/main/DarkMode";
+import DarkMode from "./components/main/DarkMode";
 
 import About from "./components/main/About";
 import Education from "./components/main/Education";
@@ -15,11 +15,10 @@ import Projects from "./components/main/Projects";
 import Personal from "./components/main/Personal";
 
 function App() {
-  const darkMode = true;
-  // const [darkMode, setDarkMode] = useState(true);
-  // const toggleDarkMode = () => {
-  //   setDarkMode(!darkMode);
-  // };
+  const [darkMode, setDarkMode] = useState(true);
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
 
   const handleMouseMove = (e) => {
     const { clientX, clientY, currentTarget } = e;
@@ -75,13 +74,13 @@ function App() {
         <div className="left">
           <header>
             <Intro />
-            {/* <DarkMode toggleDarkMode={toggleDarkMode} /> */}
             <Navbar activeSection={activeSection} />
             <Contact />
           </header>
         </div>
         <div className="right">
           <main>
+            <DarkMode toggleDarkMode={toggleDarkMode} />
             <About activeSection={activeSection} />
             <Education activeSection={activeSection} />
             <Experience activeSection={activeSection} />
