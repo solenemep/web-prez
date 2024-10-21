@@ -10,7 +10,7 @@ const Intro = () => {
       <h2>Full-stack Web3 Developer</h2>
       {/* <h2>Graduated IT Engineer</h2> */}
       <p>I build optimised and secure decentralized applications.</p>
-      <img src={SP} alt="SP" />
+      {/* <img src={SP} alt="SP" /> */}
     </div>
   );
 };

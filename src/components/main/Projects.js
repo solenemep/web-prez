@@ -335,8 +335,8 @@ const Projects = ({ activeSection }) => {
       image: <svg height="0px"></svg>,
       links: [
         {
-          name: "code",
-          url: "https://github.com/solenemep",
+          name: "",
+          url: "",
         },
       ],
     },
