@@ -1,6 +1,6 @@
 import React from "react";
 
-import SP from "../../images/SP.jpeg";
+// import SP from "../../images/SP.jpeg";
 
 const Intro = () => {
   return (
