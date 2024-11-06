@@ -33,7 +33,7 @@ const Personal = ({ activeSection }) => {
         },
         {
           name: "merkle airdrop",
-          url: "https://github.com/solenemep/",
+          url: "https://github.com/solenemep/merkle-airdrop",
         },
         {
           name: "multichain bridge",
