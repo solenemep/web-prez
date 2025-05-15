@@ -10,7 +10,7 @@ const Projects = ({ activeSection }) => {
       title: "ICN",
       establishment: { name: "Impossible Cloud Network", url: "https://www.icn.global/" },
       details: [
-        "ICN Hypernode Network - a permissionless, decentralized security layer built to verify, secure, and scale global cloud infrastructure.Stake.Earn.Decentralize. The Impossible Cloud Network (ICN) Protocol is designed to eliminate barriers and establish an open market for users, SPs, and HPs by minimizing trust assumptions. This is achieved through a token-based economy centered around the ICN Token (ICNT) and HyperNodes NFT (ICN Link)."
+        "ICN Hypernode Network - a permissionless, decentralized security layer built to verify, secure, and scale global cloud infrastructure. The Impossible Cloud Network (ICN) Protocol is designed to eliminate barriers and establish an open market for users, SPs, and HPs by minimizing trust assumptions. This is achieved through a token-based economy centered around the ICN Token (ICNT) and HyperNodes NFT (ICN Link)."
       ],
       skills: [
         "Solitidy",
