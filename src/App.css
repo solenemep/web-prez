@@ -24,9 +24,9 @@
 }
 
 .dark {
-  --background-color: rgb(21, 37, 71);
-  --card-hover-color: rgba(21, 37, 71, 0.3);
-  --radient-color: rgba(50, 118, 135, 0.3);
+  --background-color: rgb(3, 35, 75);
+  --card-hover-color: rgba(3, 35, 75, 0.3);
+  --radient-color: rgba(110, 172, 218, 0.3);
   --text-color: rgb(204, 204, 204);
   --unlight-color: rgb(255, 255, 255);
   --tag-bg-color: rgba(124, 255, 233, 0.1);
@@ -49,9 +49,11 @@
 
 .app {
   background-color: var(--background-color);
-  background-image: radial-gradient(circle at var(--x) var(--y),
-      var(--radient-color),
-      transparent 35%);
+  background-image: radial-gradient(
+    circle at var(--x) var(--y),
+    var(--radient-color),
+    transparent 35%
+  );
   line-height: 1.5;
   color: var(--text-color);
   font-family: "Be Vietnam Pro", sans-serif;
@@ -96,7 +98,6 @@
 }
 
 @media (max-width: 1024px) {
-
   .left,
   .right {
     width: 100%;
@@ -141,7 +142,8 @@ footer {
   }
 
   footer {
-    padding: var(--spacing-medium) var(--spacing-large) var(--spacing-large) var(--spacing-large);
+    padding: var(--spacing-medium) var(--spacing-large) var(--spacing-large)
+      var(--spacing-large);
   }
 }
 
@@ -155,7 +157,8 @@ footer {
   }
 
   footer {
-    padding: var(--spacing-small) var(--spacing-medium) var(--spacing-medium) var(--spacing-medium);
+    padding: var(--spacing-small) var(--spacing-medium) var(--spacing-medium)
+      var(--spacing-medium);
   }
 
   .button {

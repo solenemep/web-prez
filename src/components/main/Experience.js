@@ -5,10 +5,10 @@ import Card from "../Card";
 const Experience = ({ activeSection }) => {
   const data = [
     {
-      key: 3,
+      key: 1,
       date: "2021 - present",
       title: "Blockchain Developer",
-      establishment: { name: "Ideasoft", url: "https://ideasoft.io/" },
+      establishment: { name: "", url: "" },
       details: [
         "Smart Contract Development: Create secure smart contracts using Solidity for dApps.",
         "Code Optimization: Improve contract performance to lower gas fees and enhance transaction efficiency.",
@@ -18,7 +18,6 @@ const Experience = ({ activeSection }) => {
       ],
       skills: [
         "Solidity",
-        "Truffle",
         "Hardhat",
         "Foundry",
         "OpenZepellin",
