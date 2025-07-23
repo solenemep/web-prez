@@ -91,7 +91,7 @@ const Projects = ({ activeSection }) => {
       title: "Wallet Strategies",
       establishment: {
         name: "Dollet Wallet",
-        url: "https://dolletwallet.com/",
+        url: "https://x.com/dolletwallet",
       },
       details: [
         "Implementation of rentable strategies by integrating external protocols, improving users' ability to maximize their asset utilization. This involved developing smart contracts in Solidity that allowed interaction with various DeFi protocols, enabling users to lend, borrow, and earn yields on their assets.",
@@ -370,8 +370,8 @@ const Projects = ({ activeSection }) => {
       image: <svg height="0px"></svg>,
       links: [
         {
-          name: "",
-          url: "",
+          name: "code",
+          url: "https://github.com/solenemep/perpetual-dex",
         },
       ],
     },
