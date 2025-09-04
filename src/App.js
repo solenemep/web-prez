@@ -90,7 +90,7 @@ function App() {
           <footer>
             <p>
               Built with <b>React.js</b> & <b>ChatGPT</b> &copy;{" "}
-              {new Date().getFullYear()} Solène PETTIER
+              2024 Solène PETTIER
             </p>
           </footer>
         </div>

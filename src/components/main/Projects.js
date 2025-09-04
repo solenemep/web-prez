@@ -12,13 +12,13 @@ const Projects = ({ activeSection }) => {
       details: [
         "ICN Hypernode Network - a permissionless, decentralized security layer built to verify, secure, and scale global cloud infrastructure. The Impossible Cloud Network (ICN) Protocol is designed to eliminate barriers and establish an open market for users, SPs, and HPs by minimizing trust assumptions. This is achieved through a token-based economy centered around the ICN Token (ICNT) and HyperNodes NFT (ICN Link)."
       ],
-      skills: [
-        "Solitidy",
+      skills: ["DePIN",
+        "Solidity",
         "Foundry",
         "Node.js",
         "Defender",
         "Multisig",
-        "OpenZepellin",
+        "OpenZeppelin",
       ],
       image: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 29" fill="none">
         <mask id="path-1-outside-1_2_189" maskUnits="userSpaceOnUse" x="-0.433594" y="-0.780937" width="32" height="30" fill="black">
@@ -44,7 +44,7 @@ const Projects = ({ activeSection }) => {
         "The Kadena bridge, powered by the Hyperlane permissionless protocol, enables seamless and secure asset transfers between the Kadena blockchain and other blockchains. This project offered an opportunity to quickly learn and apply the Pact programming language. By focusing on cross-chain communication, it deepened the understanding of smart contract design and interoperability.",
       ],
       skills: [
-        "Solitidy",
+        "Solidity",
         "Pact",
         "TypeScript",
         "Node.js",
@@ -96,7 +96,7 @@ const Projects = ({ activeSection }) => {
       details: [
         "Implementation of rentable strategies by integrating external protocols, improving users' ability to maximize their asset utilization. This involved developing smart contracts in Solidity that allowed interaction with various DeFi protocols, enabling users to lend, borrow, and earn yields on their assets.",
       ],
-      skills: ["Solitidy", "TypeScript", "Foundry", "Oracle", "DeFi"],
+      skills: ["DeFi", "Solidity", "TypeScript", "Foundry", "Oracle"],
       image: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94 20" fill="none">
           <path
@@ -151,7 +151,7 @@ const Projects = ({ activeSection }) => {
     //   details: [
     //     "A blockchain-based betting game developed using Solidity, designed to provide a transparent and secure gambling experience. Players can place bets on various outcomes, with smart contracts ensuring that all transactions are executed fairly and automatically.",
     //   ],
-    //   skills: ["Solitidy", "Hardhat", "NFT"],
+    //   skills: ["Solidity", "Hardhat", "NFT"],
     //   image: (
     //     <svg
     //       viewBox="0 0 126 35"
@@ -360,14 +360,29 @@ const Projects = ({ activeSection }) => {
       date: "",
       title: "Perpetual DEX",
       establishment: {
-        name: "",
-        url: "",
+        name: "JibX",
+        url: "https://jibx.io/",
       },
       details: [
         "The orderbook-based perpetual trading DEX represents a significant advancement in the DeFi space, combining the advantages of traditional trading mechanisms with the benefits of decentralization. By utilizing a red-black tree for efficient order management, it enhances trade execution speed and accuracy. This innovative approach creates a new trading ecosystem, setting a new standard for decentralized applications in finance.",
       ],
-      skills: ["Solitidy", "Foundry", "Oracle", "RedBlack Tree", "DeFi"],
-      image: <svg height="0px"></svg>,
+      skills: ["DeFi", "Solidity", "Foundry", "Oracle", "RedBlack Tree"],
+      image: <svg xmlns="http://www.w3.org/2000/svg" width="90" height="28" viewBox="0 0 90 28" fill="none">
+        <g clip-path="url(#clip0_79_4196)">
+          <path d="M38.4081 22.9521C39.4028 23.41 40.4847 23.639 41.6539 23.639C43.6607 23.639 45.1876 23.1018 46.2346 22.0274C47.2991 20.9529 47.8313 19.3237 47.8313 17.1396V4H37.9108V6.8798H44.4285V17.3246C44.4285 19.5967 43.4775 20.7328 41.5754 20.7328C40.8599 20.7328 40.1968 20.5566 39.586 20.2044C38.9927 19.8521 38.443 19.3237 37.937 18.6192L36 20.9705C36.6282 21.8336 37.4309 22.4941 38.4081 22.9521Z" fill="white" />
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M62.3432 23.2074C63.268 23.7358 64.3238 24 65.5104 24C66.889 24 68.1018 23.7006 69.1488 23.1017C70.2133 22.4852 71.0509 21.6398 71.6616 20.5654C72.2898 19.491 72.604 18.2228 72.604 16.7609C72.604 15.299 72.2898 14.0308 71.6616 12.9564C71.0509 11.882 70.2133 11.0453 69.1488 10.4465C68.1018 9.8476 66.889 9.54817 65.5104 9.54817C64.3761 9.54817 63.3378 9.81238 62.3955 10.3408C61.8863 10.622 61.4325 10.9861 61.0344 11.4329L61.0344 4H57.7625L57.7625 23.8151H60.8773V21.9607C61.2959 22.4727 61.7845 22.8882 62.3432 23.2074ZM67.238 20.6446C66.6272 20.9969 65.9292 21.173 65.1439 21.173C64.3587 21.173 63.6519 20.9969 63.0237 20.6446C62.3955 20.2924 61.8982 19.7816 61.5317 19.1123C61.1653 18.443 60.982 17.6592 60.982 16.7609C60.982 15.845 61.1653 15.0612 61.5317 14.4095C61.8982 13.7402 62.3955 13.2294 63.0237 12.8771C63.6519 12.5248 64.3587 12.3487 65.1439 12.3487C65.9292 12.3487 66.6272 12.5248 67.238 12.8771C67.8662 13.2294 68.3635 13.7402 68.73 14.4095C69.0964 15.0612 69.2797 15.845 69.2797 16.7609C69.2797 17.6592 69.0964 18.443 68.73 19.1123C68.3635 19.7816 67.8662 20.2924 67.238 20.6446Z" fill="white" />
+          <path d="M79.252 13.7L72.5497 23.8151H76.3702L81.2155 16.2736L86.1279 23.8151H90L83.2133 13.5665L89.5353 4H85.8956L81.3307 11.0371L76.7057 4H72.9111L79.252 13.7Z" fill="white" />
+          <path d="M51.2431 23.8151V9.48666H54.5151V23.8151H51.2431Z" fill="white" />
+          <path d="M52.8922 8.04236C52.2814 8.04236 51.7754 7.84861 51.374 7.46112C50.9901 7.07362 50.7981 6.60687 50.7981 6.06085C50.7981 5.49722 50.9901 5.03046 51.374 4.66058C51.7754 4.27309 52.2814 4.07934 52.8922 4.07934C53.5029 4.07934 54.0003 4.26428 54.3842 4.63416C54.7855 4.98643 54.9862 5.43557 54.9862 5.98159C54.9862 6.56283 54.7943 7.05601 54.4104 7.46112C54.0265 7.84861 53.5204 8.04236 52.8922 8.04236Z" fill="white" />
+          <path d="M0 12.3529C0 6.52971 0 3.61809 1.80905 1.80905C3.61809 0 6.52971 0 12.3529 0H15.6471C21.4703 0 24.3819 0 26.191 1.80905C28 3.61809 28 6.52971 28 12.3529V15.6471C28 21.4703 28 24.3819 26.191 26.191C24.3819 28 21.4703 28 15.6471 28H12.3529C6.52971 28 3.61809 28 1.80905 26.191C0 24.3819 0 21.4703 0 15.6471V12.3529Z" fill="#1864F8" />
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8528 4.94118C15.8528 5.96858 15.6505 6.98592 15.2573 7.93511C14.8641 8.88431 14.2879 9.74677 13.5614 10.4732C12.8349 11.1997 11.9724 11.776 11.0232 12.1692C10.074 12.5623 9.05671 12.7647 8.0293 12.7647V16.8824C9.59744 16.8824 11.1502 16.5735 12.599 15.9734C14.0478 15.3733 15.3642 14.4937 16.473 13.3849C17.5818 12.276 18.4614 10.9596 19.0615 9.51087C19.6616 8.0621 19.9705 6.50931 19.9705 4.94118H15.8528ZM19.9705 18.9412H8.0293V23.0588H19.9705V18.9412Z" fill="white" />
+        </g>
+        <defs>
+          <clipPath id="clip0_79_4196">
+            <rect width="90" height="28" fill="white" />
+          </clipPath>
+        </defs>
+      </svg>,
       links: [
         {
           name: "code",
@@ -386,7 +401,7 @@ const Projects = ({ activeSection }) => {
       details: [
         "The DEIN project, a rebranding of Bridge Mutual, is a decentralized app focused on risk management, predictions, and insurance. It allows users to participate in a community-driven approach to insurance, enabling them to assess risks, set premiums, and manage claims transparently through smart contracts.",
       ],
-      skills: ["Solitidy", "Hardhat", "Foundry", "DeFi"],
+      skills: ["DeFi", "Solidity", "Hardhat", "Foundry"],
       image: (
         <svg
           class="about-svg"
