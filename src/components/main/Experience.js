@@ -5,9 +5,42 @@ import Card from "../Card";
 const Experience = ({ activeSection }) => {
   const data = [
     {
+      key: 2,
+      date: "2025 - present",
+      title: "Senior Blockchain Engineer",
+      establishment: { name: "", url: "" },
+      details: [
+        "Leads smart contract architecture and development",
+        "Oversees optimization and security best practices",
+        "Manages audits, testing, and cross-team collaboration",
+        "Guides integration with front-end and back-end systems",
+        "Mentors engineers and maintains technical documentation"
+      ],
+      skills: [
+        "DePIN",
+        "DeFi",
+        "NFT",
+        "Solidity",
+        "Foundry",
+        "OpenZeppelin",
+        "EVM chain",
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "MultiSig Safe",
+      ],
+      image: "",
+      links: [
+        {
+          name: "",
+          url: "",
+        },
+      ],
+    },
+    {
       key: 1,
       date: "2021 - present",
-      title: "Smart Contract Engineer",
+      title: "Blockchain Engineer",
       establishment: { name: "", url: "" },
       details: [
         "Develops secure smart contracts in Solidity for dApps",
@@ -38,40 +71,7 @@ const Experience = ({ activeSection }) => {
           url: "",
         },
       ],
-    },
-    {
-      key: 2,
-      date: "2025 - present",
-      title: "Lead Smart Contract Engineer",
-      establishment: { name: "", url: "" },
-      details: [
-        "Leads smart contract architecture and development",
-        "Oversees optimization and security best practices",
-        "Manages audits, testing, and cross-team collaboration",
-        "Guides integration with front-end and back-end systems",
-        "Mentors engineers and maintains technical documentation"
-      ],
-      skills: [
-        "DePIN",
-        "DeFi",
-        "NFT",
-        "Solidity",
-        "Foundry",
-        "OpenZeppelin",
-        "EVM chain",
-        "JavaScript",
-        "TypeScript",
-        "Node.js",
-        "MultiSig Safe",
-      ],
-      image: "",
-      links: [
-        {
-          name: "",
-          url: "",
-        },
-      ],
-    },
+    }
   ];
 
   return (
