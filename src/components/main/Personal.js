@@ -44,8 +44,8 @@ const Personal = ({ activeSection }) => {
           url: "https://github.com/solenemep/multichain-bridge",
         },
         {
-          name: "randomness",
-          url: "https://github.com/solenemep/randomness",
+          name: "randomness-generator",
+          url: "https://github.com/solenemep/randomness-generator",
         },
       ],
     },
