@@ -24,12 +24,16 @@ const Personal = ({ activeSection }) => {
       ),
       links: [
         {
+          name: "reward accumulator",
+          url: "https://github.com/solenemep/reward-accumulator",
+        },
+        {
           name: "linear vesting",
-          url: "https://github.com/solenemep/vesting",
+          url: "https://github.com/solenemep/linear-vesting",
         },
         {
           name: "reentrancy hack",
-          url: "https://github.com/solenemep/reentrancy",
+          url: "https://github.com/solenemep/reentrancy-hack",
         },
         {
           name: "merkle airdrop",
